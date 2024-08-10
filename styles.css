@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 0px;   
 }
 
 header {
@@ -10,9 +10,14 @@ header {
     padding:0px;
 }
 
+.banner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
 .banner img {
-    padding-left: 25px;
-    padding-top: 25px;
     width: 100px;
     height: 100px;
 }
@@ -30,10 +35,6 @@ h1 {
     font-style: normal;
     font-size:36px;
     text-shadow: 0px 5px 5px rgb(0, 0, 0);
-    /* refactor later */
-    padding-left: 200px;
-    margin-top: 0px;
-
-    
+    padding-top: 10px;
 }
 
