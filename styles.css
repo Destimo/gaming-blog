@@ -66,3 +66,10 @@ header {
     padding-top: 10px;
 }
 
+.placeholdContainer {
+    width: 60%;
+    height: 50vh;
+    background-color: red;
+    margin-left: 20%;
+    margin-right: 20%;
+}
