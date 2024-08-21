@@ -153,8 +153,8 @@ p {
 }
 
 .gHistoryContainer img {
-    max-width: 80%;
-    max-height: 80%;
+    min-width: 90%;
+    min-height: 90%;
 }
 
 .gHistoryListContainer {
