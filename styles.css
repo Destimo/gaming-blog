@@ -80,10 +80,17 @@ header {
 
 .aboutContainer {
     height: 60vh;
-    font-family: 'manrope';
+    font-family: 'Manrope';
+    font-size: 23px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+.aboutTextContainer h1 {
+    font-family: 'Manrope';
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .aboutImageContainer {
@@ -123,4 +130,38 @@ p {
 
 .recommendationImages {
     background-color: purple;
+}
+
+.gHistoryContainer {
+    height: 60vh;
+    font-family: 'Manrope';
+    font-size: 23px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.gHistoryTextContainer h1 {
+    font-family: 'Manrope';
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.gHistoryImageContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.gHistoryContainer img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.gHistoryListContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;
+    
 }
