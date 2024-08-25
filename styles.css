@@ -3,6 +3,17 @@ body {
     padding: 0px;   
 }
 
+input {
+    height: 50px;
+}
+
+input, button {
+    /* We need to add this to stop buttons and inputs from
+    overflowing outside of our containers. */
+    width: 100%;
+    box-sizing: border-box; 
+}
+
 header {
     background-color: #0C59CF; 
     height: 150px;
@@ -29,6 +40,7 @@ header {
 
 .navContainer {
     display: flex;
+    max-width: 100vw;
     align-items: center;
 }
 
@@ -40,6 +52,7 @@ header {
 .navContainer li {
     display: inline-block;
     margin-right: 100px; 
+    margin-top: 15px;
 }
 
 .navContainer a {
@@ -164,4 +177,78 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     color: #7A7A7A;
     
+}
+
+.firstNameText h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;
+    
+}
+
+.lastNameText h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;
+    
+}
+
+.userEmailText h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;
+    
+}
+
+.userMessageText h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;
+    
+}
+
+.userMessageContainer textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.socialMediaText h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;   
+}
+
+.socialMediaImages img{
+    width:50px;
+    height:50px;
+}
+
+.contactPageBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 7rem;
+}
+
+.contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 3rem;
+}
+
+.contactFormContainer button {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.nameContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.userEmailContainer input {
+    width: 100%;
+}
+
+.socialMediaImages {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 }
