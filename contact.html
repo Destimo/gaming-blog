@@ -34,22 +34,23 @@
             <div class="nameContainer">
                 <div class="firstNameContainer">
                     <div class="firstNameText"><h1>First Name</h1></div>
-                        <input>
+                        <input id="firstNameInput">
                 </div>
                 <div class="lastNameContainer">
                     <div class="lastNameText"><h1>Last Name</h1></div>
-                        <input>
+                        <input id="lastNameInput">
                 </div>
             </div>
             <div class="userEmailContainer">
                 <div class="userEmailText"><h1>Email</h1></div>
-                    <input>
+                    <input id ="emailInput">
             </div>
             <div class="userMessageContainer">
                 <div class="userMessageText"><h1>Message</h1></div>
-                    <textarea></textarea>
+                    <textarea id="messageInput"></textarea>
             </div>
-            <div class="sendButton"><button>Send Message</button></div>
+            <div class="sendButton"><button id="sendButton" onclick="contactFormSubmit()">Send Message</button></div>
+            <div class="thankYouMessage" id="thankYouMessage"><p>Thank you for contacting us!</p></div>
         </div>
         <div class="socialMediaContainer">
             <div class="socialMediaText"><h1>Or find us here:</h1>
