@@ -24,9 +24,9 @@
         </div>
         <div class="navContainer">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/articles.html">Articles</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/" id="homeNavLink">Home</a></li>
+                <li><a href="/articles.html" id="articlesNavLink">Articles</a></li>
+                <li><a href="/contact.html" id="contactNavLink">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -36,7 +36,13 @@
                 <h1>Recommended Articles</h1>
                 <p>Browse a selection of recommended articles, including new and popular posts.</p>
             </div>
-            <div class="recommendationImages"></div>
+            <div class="recommendationImages">
+                <img src="doomThumbnail.jpg" alt=""/>
+                <!-- Create overlay div just for doom for now, call it "imageOverlay" -->
+                <img src="hadesThumbnail.webp" alt=""/>
+                <img src="palworldThumbnail.png" alt=""/>
+                <img src="frogunThumbnail.jpg" alt=""/>
+            </div>
         </div>
         <div class="aboutContainer">
             <div class ="aboutTextContainer">
@@ -100,5 +106,6 @@
             <img src="gameHistoryImage.png" alt=""></img>
         </div>
     </div>
+    <script src="script.js" type="text/javascript"></script> 
 </body>
 </html>
