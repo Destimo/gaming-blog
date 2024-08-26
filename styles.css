@@ -103,7 +103,7 @@ header {
 .aboutTextContainer h1 {
     font-family: 'Manrope';
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 100;
 }
 
 .aboutImageContainer {
@@ -157,7 +157,7 @@ p {
 .gHistoryTextContainer h1 {
     font-family: 'Manrope';
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 100;
 }
 
 .gHistoryImageContainer {
@@ -220,9 +220,12 @@ p {
 
 .contactPageBody {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
     justify-items: center;
     margin-top: 7rem;
+    gap: 3rem;
+    max-width:40%;
 }
 
 .contactFormContainer {
@@ -252,3 +255,11 @@ p {
     gap: 2rem;
     justify-content: center;
 }
+
+.sendButton button {
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7A7A7A;
+    border-color: #7A7A7A;
+}
+
